@@ -1,0 +1,22 @@
+{
+  "name": "node-aes-cmac",
+  "version": "0.1.0",
+  "description": "A pure Node.js implementation of the AES-CMAC algorithm (RFC4493).",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "aes-cmac",
+    "aes",
+    "cmac"
+  ],
+  "author": "Allan Stewart",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  }
+}
