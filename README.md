@@ -38,7 +38,7 @@ The module exposes a single method: `aesCmac(key, message[, options])`
     Must be 128, 192, or 256 bits in length.
 * `message` - (`string` | `Buffer`) the message.
 * `options` - (`object` *optional*) a set of extra options to pass into the method:
-** `returnAsBuffer` - (`boolean`) set to `true` to get the returned CMAC as a Buffer
+    * `returnAsBuffer` - (`boolean`) set to `true` to get the returned CMAC as a Buffer
        instead of a string. Defaults to `false`.
 
 ### Return Value
