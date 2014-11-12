@@ -1,7 +1,7 @@
 {
   "name": "node-aes-cmac",
   "version": "0.1.0",
-  "description": "A pure Node.js implementation of the AES-CMAC algorithm (RFC4493).",
+  "description": "A pure Node.js implementation of the AES-CMAC algorithm (NIST 800-38B / RFC 4493).",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -15,6 +15,19 @@
     "cmac"
   ],
   "author": "Allan Stewart",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/allan-stewart/node-aes-cmac.git"
+  },
+  "bugs" : {
+    "url" : "https://github.com/allan-stewart/node-aes-cmac/issues"
+  },
+  "licenses" : [
+    {
+      "type" : "MIT",
+      "url" : "https://github.com/allan-stewart/node-aes-cmac/blob/master/LICENSE"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "mocha": "^1.20.1"
