@@ -1,7 +1,9 @@
 node-aes-cmac
 =============
 
-A pure [Node.js](http://nodejs.org/) implementation of the AES-CMAC algorithm ([RFC 4493](http://tools.ietf.org/html/rfc4493)).
+A pure [Node.js](http://nodejs.org/) implementation of the AES-CMAC algorithm
+per [NIST Special Publication 800-38B](http://csrc.nist.gov/publications/nistpubs/800-38B/SP_800-38B.pdf)
+and ([RFC 4493](http://tools.ietf.org/html/rfc4493)).
 
 
 ## Why?
