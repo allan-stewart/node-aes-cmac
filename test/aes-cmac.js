@@ -110,4 +110,19 @@ describe('aes-cmac', function () {
       });
     });
   });
+
+  describe('error handling', function () {
+    it('throws an error if the provided key is not a valid length', function () {
+      var key = new Buffer('abcd');
+      var message = new Buffer('some message');
+      assert.throws(function () {
+          aesCmac.aesCmac(key, message);
+        },
+        function (error) {
+          assert.equal(error.message, 'Keys must be 128, 192, or 256 bits in length.');
+          return true;
+        }
+      );
+    });
+  });
 });
