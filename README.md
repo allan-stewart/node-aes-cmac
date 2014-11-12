@@ -62,7 +62,8 @@ var bufferKey = new Buffer('6b334d656e2a702f322e336a34616242', 'hex');
 var bufferMessage = new Buffer('this|is|a|test|message');
 var options = {returnAsBuffer: true};
 cmac = aesCmac(bufferKey, bufferMessage, options);
-// cmac will be a Buffer containing <01 25 c5 38 f8 be 7c 4e ea 37 0f 99 2a 4f fd cb>
+// cmac will be a Buffer containing:
+// <01 25 c5 38 f8 be 7c 4e ea 37 0f 99 2a 4f fd cb>
 ```
 
 
