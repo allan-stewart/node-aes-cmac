@@ -1,6 +1,6 @@
 {
   "name": "node-aes-cmac",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A pure Node.js implementation of the AES-CMAC algorithm (NIST 800-38B / RFC 4493).",
   "main": "index.js",
   "directories": {
